@@ -525,16 +525,16 @@ body {
   color: var(--color-dark-600);
 }
 
-.page {
+.page:not(body.page) {
   display: grid;
   padding-top: 1rem;
   padding-bottom: 4rem;
 }
-.page h3 {
+.page:not(body.page) h3 {
   border-bottom: 1px solid var(--color-dark-150);
   padding-bottom: 0.5rem;
 }
-.page__lastupdated {
+.page:not(body.page) .page__lastupdated {
   text-align: right;
   font-size: 0.7rem;
   color: var(--color-dark-600);

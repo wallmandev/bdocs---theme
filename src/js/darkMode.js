@@ -22,7 +22,7 @@ const darkModeToogle = () => {
         themeToggleButtonIcon.innerText = iconText
 
 
-        body.classList = ''
+        body.classList.remove('light', 'dark')
 
         if (theme === 'light') {
             body.classList.add('light')
@@ -33,7 +33,7 @@ const darkModeToogle = () => {
         }
 
         if (theme === 'default') {
-            body.classList = ''
+            body.classList.remove('light', 'dark')
 
         }
 
