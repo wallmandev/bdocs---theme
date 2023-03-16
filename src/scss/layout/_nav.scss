@@ -62,16 +62,16 @@
 
     }
 
-    &__item{
-        &--current{
-            .header-nav__link{
+    &__item, .menu-item{
+        &--current, &.current-menu-item{
+            a {
                 font-weight: 600;
                 color: var(--color-light-100);
             }
         }
     }
 
-    &__link{
+    &__link, .menu-item a{
         color: var(--color-dark-700);
     }
 }
