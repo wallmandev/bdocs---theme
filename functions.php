@@ -1,6 +1,14 @@
 <?php
 
 /**
+ * Theme Support
+ */
+
+	add_theme_support( 'post_thumbnails' );
+
+
+
+/**
  * Register Navigation Locations
  * @link https://developer.wordpress.org/reference/functions/register_nav_menus/
  * 
